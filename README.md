@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌦 Weather Insight App
 
 ## 📌 Overview
