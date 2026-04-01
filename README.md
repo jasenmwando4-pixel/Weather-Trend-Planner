@@ -1,115 +1,90 @@
-# 🌦 Weather Insight App
+# 🌦 Weather Trend Planner
 
 ## 📌 Overview
-
 This is a React-based weather application that allows users to search for any city and view:
 
-* Current weather conditions
-* Temperature trends over the next few days
-* Smart insights based on weather data
+- Current weather conditions  
+- Temperature trends over the next few days  
+- Smart insights based on weather data  
 
 The app uses the OpenWeather API and displays data in a clean, wireframe-inspired UI.
 
 ---
 
+## 🌐 Live Demo
+[https://weather-trend-planner-.vercel.app](https://weather-trend-planner-orpin.vercel.app/)
+
+---
+
 ## 🚀 Features
 
-* 🔍 Search weather by city name
-* ⌨️ Press **Enter key** or click button to search
-* 🌡 Displays current temperature and condition
-* 📊 Line chart showing temperature trends
-* 🧠 Smart weather insights:
-
-  * Detects rain
-  * Identifies very hot or cold days
-  * Suggests the best day to go out
-* 🎨 Styled UI matching a wireframe design
-* 🖥 Centered layout with custom header (window-style dots)
+- 🔍 Search weather by city name  
+- ⌨️ Press Enter key or click button to search  
+- 🌡 Displays current temperature and condition  
+- 📊 Line chart showing temperature trends  
+- 🧠 Smart weather insights:
+  - Detects rain  
+  - Identifies very hot or cold days  
+  - Suggests the best day to go out  
+- 🎨 Styled UI matching a wireframe design  
+- 🖥 Centered layout with custom header (window-style dots)  
 
 ---
 
 ## 🧠 Insight Logic
 
 The app determines insights based on:
+- Rain probability  
+- Temperature extremes  
+- Comfort range (~20–25°C)
 
-* Rain probability
-* Temperature extremes
-* Comfort range (~20–25°C)
-
-Example outputs:
-
-* “Rain expected on Thursday”
-* “Very hot day expected on Saturday (36°C)”
-* “Best day to go out: Friday (24°C)”
-* “Cool week overall, best day is Wednesday (15°C)”
+### Example outputs:
+- “Rain expected on Thursday”  
+- “Very hot day expected on Saturday (36°C)”  
+- “Best day to go out: Friday (24°C)”  
+- “Cool week overall, best day is Wednesday (15°C)”  
 
 ---
 
 ## 🛠 Technologies Used
 
-* React (Vite)
-* Chart.js (react-chartjs-2)
-* OpenWeather API
+- React (Vite)  
+- Chart.js (react-chartjs-2)  
+- OpenWeather API  
 
 ---
 
 ## ⚙️ Setup Instructions
 
-1. Clone the repository:
-
+Clone the repository:
 ```bash
-git clone <your-repo-link>
-cd <your-project-folder>
-```
+git clone https://github.com/jasenmwando4-pixel/Weather-Trend-Planner.git
+cd Weather-Trend-Planner
 
-2. Install dependencies:
+Install dependencies:
 
-```bash
 npm install
-```
 
-3. Create a `.env` file in the root folder and add:
+Create a .env file and add:
 
-```env
 VITE_OPENWEATHER_API_KEY=your_api_key_here
-```
 
-4. Start the development server:
+Run the app:
 
-```bash
 npm run dev
-```
-
----
-
-## 📂 Project Structure
-
-```
+📂 Project Structure
 src/
-  App.jsx        # Main application logic and UI
-```
+  App.jsx   # Main application logic and UI
+📈 Future Improvements
+Add weather icons
+Highlight best day on chart
+Add loading spinner animation
+Improve mobile responsiveness
+👨‍💻 Author
 
----
+John Mwando
+Student ID: 2410053
 
-## 📈 Future Improvements
-
-* Add weather icons
-* Highlight best day on chart
-* Add loading spinner animation
-* Improve mobile responsiveness
-
----
-
-## 👨‍💻 Author
-
-Your Name
-
----
-
-## 📄 License
+📄 License
 
 This project is for educational purposes.
-=======
-# Weather-Trend-Planner
-Weather Trend Planner app built with React and OpenWeather API. Displays temperature trends, insights, and forecasts.
->>>>>>> e2d03891cf937780e379da91d6035238d6092b4e
