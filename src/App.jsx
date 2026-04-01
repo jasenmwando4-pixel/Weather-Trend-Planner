@@ -17,7 +17,7 @@ export default function App() {
   const [insight, setInsight] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY || "";
+  const API_KEY = "e56145cdcfce8e35bc47e1cb5f86e0d4";
 
   const fetchWeather = async () => {
     if (!API_KEY) {
