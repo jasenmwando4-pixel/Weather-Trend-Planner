@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌦 Weather Insight App
 
 ## 📌 Overview
@@ -109,3 +110,7 @@ Your Name
 ## 📄 License
 
 This project is for educational purposes.
+=======
+# Weather-Trend-Planner
+Weather Trend Planner app built with React and OpenWeather API. Displays temperature trends, insights, and forecasts.
+>>>>>>> e2d03891cf937780e379da91d6035238d6092b4e
